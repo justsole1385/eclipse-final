@@ -1,15 +1,133 @@
-# Planificación de Cambios
+# Planificación Técnica de Estilos CSS
 
 ---
 
-La [Tabla de Planificación de Cambios CSS](#tabla-de-planificación-de-cambios-css) representa una guía de planificación técnica para las modificaciones visuales que deberán implementarse en el sitio web. En ella se especifica el elemento HTML afectado, el cambio visual requerido, el selector CSS que debe utilizarse, la propiedad CSS asociada a la modificación y valor CSS a aplicar.
+# 📌 Identificación de Selectores CSS a Modificar
 
-Esta tabla servirá como referencia para organizar el desarrollo de las reglas CSS y mantener claridad en la implementación de los cambios solicitados en el proyecto.
+En esta sección se deberán registrar los selectores CSS que serán intervenidos durante el mantenimiento visual del sitio web.  
+El objetivo es identificar claramente qué componentes del archivo `index.html` requieren modificaciones visuales y qué selectores CSS se utilizarán para aplicar dichos cambios.
 
-## Tabla de Planificación de Cambios CSS
+## Aspectos a identificar
 
-| Elemento HTML | Cambio requerido       | Selector CSS   | Propiedad CSS      |  Valor CSS         |
-| ------------- | ---------------------- | -------------- | ------------------ | ------------------ |
-| `<header>`    | Cambiar color de fondo | `.header`      | `background-color` | `#080808`          |
-| Botones       | Bordes redondeados     | `.btn-primary` | `border-radius`    | `12%`              |
+- Selectores de clases (`.class`)
+- Selectores de identificadores (`#id`)
+- Etiquetas HTML afectadas
+- Componentes reutilizables
+- Estados visuales (`:hover`, `:focus`, etc.)
+
+## Ejemplo
+
+| Elemento HTML | Selector CSS | Cambio requerido |
+|---|---|---|
+| `<header>` | `.header` | Cambiar color de fondo |
+| Botón principal | `.btn-primary` | Bordes redondeados |
+| Tarjetas | `.card` | Agregar sombra |
+
+---
+
+# 🗂 Estructura y Organización del Archivo CSS
+
+En esta sección se describirá cómo estará organizado el archivo `styles.css` para mantener claridad, orden y facilidad de mantenimiento del código.
+
+## Organización sugerida
+
+```css
+/* Reset y estilos globales */
+
+/* Tipografía */
+
+/* Layout principal */
+
+/* Navegación */
+
+/* Componentes */
+
+/* Botones */
+
+/* Tarjetas */
+
+/* Footer */
+
+/* Responsive Design */
+```
+
+## Aspectos a considerar
+
+- Separación lógica de estilos
+- Uso de comentarios descriptivos
+- Agrupación de componentes relacionados
+- Orden jerárquico de reglas CSS
+- Facilidad de lectura y mantenimiento
+
+---
+
+# 🏷 Estrategia de Nomenclatura CSS
+
+En esta sección se definirá la convención de nombres que se utilizará para clases y componentes CSS, con el fin de mantener consistencia y claridad en el proyecto.
+
+## Recomendaciones
+
+- Utilizar nombres descriptivos
+- Evitar nombres ambiguos
+- Mantener consistencia en el idioma
+- Utilizar kebab-case
+
+## Ejemplos
+
+| Correcto | Incorrecto |
+|---|---|
+| `.main-header` | `.header1` |
+| `.product-card` | `.box-red` |
+| `.btn-primary` | `.button-new` |
+
+## Convención sugerida
+
+```css
+.section-name
+.card-product
+.btn-primary
+.footer-links
+```
+
+---
+
+# ♻ Identificación de Estilos Reutilizables
+
+En esta sección se identificarán estilos que puedan reutilizarse en distintos componentes del sitio web para optimizar el código CSS y evitar duplicación innecesaria.
+
+## Aspectos a analizar
+
+- Colores repetidos
+- Botones similares
+- Espaciados comunes
+- Tipografías reutilizables
+- Sombras y bordes consistentes
+
+## Ejemplo de reutilización
+
+```css
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #2ecc71;
+  color: white;
+}
+```
+
+## Beneficios
+
+- Código más limpio
+- Mayor facilidad de mantenimiento
+- Consistencia visual
+- Reducción de redundancia
+- Mejor escalabilidad del proyecto
 
