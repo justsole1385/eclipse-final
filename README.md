@@ -30,7 +30,7 @@ eclipse-final/
 ├── stylesheets/
 │   └── styles.css
 ├── deliverables/
-│   ├── ANALYSIS.md
+│   └── ANALYSIS.md
 ├── CHANGELOG.md
 └── README.md
 ```
