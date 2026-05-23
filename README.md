@@ -28,7 +28,7 @@ eclipse-final/
 │
 ├── index.html
 ├── stylesheets/
-│   └── styles.css
+│   └── style.css
 ├── deliverables/
 │   └── ANALYSIS.md
 ├── CHANGELOG.md
