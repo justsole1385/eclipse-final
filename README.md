@@ -10,7 +10,7 @@ El proyecto forma parte de una actividad académica orientada al análisis, plan
 
 El sitio web presenta información promocional relacionada con la película *Eclipse Final*, incluyendo:
 
-- Portada principal
+- Portada
 - Trailer
 - Sinopsis
 - Personajes Principales
