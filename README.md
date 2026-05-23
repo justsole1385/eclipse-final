@@ -1,7 +1,6 @@
 # 🌑 Eclipse Final
 
-Sitio web estático promocional de la película ficticia **Eclipse Final**.  
-Este repositorio contiene una versión inicial del sitio web que requiere mantenimiento visual y actualización de estilos CSS.
+Este repositorio contiene una versión inicial del sitio web de la película ficticia **Eclipse Final**, que requiere mantenimiento visual y actualización de estilos CSS.
 
 El proyecto forma parte de una actividad académica orientada al análisis, planificación, diseño, implementación y despliegue de mejoras visuales en interfaces web desarrolladas con HTML y CSS.
 
