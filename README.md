@@ -21,16 +21,14 @@ El sitio web presenta información promocional relacionada con la película *Ecl
 
 # 📁 Estructura del Proyecto
 
+El proyecto se estructura en una jerarquía de carpetas, similar:
+
 ```plaintext
 eclipse-final/
 │
 ├── index.html
 ├── stylesheets/
 │   └── styles.css
-├── assets/
-│   ├── img/
-│   ├── video/
-│   └── audio/
 ├── deliverables/
 │   ├── ANALYSIS.md
 ├── CHANGELOG.md
@@ -41,9 +39,7 @@ eclipse-final/
 
 # 📖 Archivo CHANGELOG
 
-El archivo `CHANGELOG.md` contiene las especificaciones visuales y técnicas que deben implementarse durante el mantenimiento del sitio web.
-
-Ejemplos de cambios:
+El archivo `CHANGELOG.md` contiene las especificaciones visuales y técnicas que deben implementarse durante el mantenimiento del sitio web, por ejemplo:
 
 - Actualización de colores
 - Mejora de tipografía
@@ -56,7 +52,7 @@ Ejemplos de cambios:
 
 # 👨‍💻 Autor
 
-Proyecto académico para la asignatura de Desarrollo de Aplicaciones Web y Móviles.
+Proyecto académico para la asignatura de SOFG1801 - Desarrollo de Aplicaciones Web y Móviles.
 
 ---
 
