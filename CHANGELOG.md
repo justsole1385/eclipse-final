@@ -11,58 +11,56 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), 
 
 ### Agregado
 
+- Reinicia **todos los elementos del documento**. Configura `box-sizing: border-box` para que el ancho y alto incluyan el contenido, el relleno y el borde. Además, elimina los márgenes y rellenos predeterminados con `box-sizing: border-box` y `padding: 0`.
+
+- Define el estilo base del **cuerpo de la página**. Usa una tipografía `Georgia, 'Times New Roman', serif` como fuente principal. Establece un fondo casi negro `#080808`, usa color del texto claro `#f2f2f2` y una altura de línea de `1.6` para mejorar la lectura.
+
 ## [1.1.0] - 2026-03-11
 
-### Agregado
+### Modificado
+
+- Modifica el selector por clase `.logo`.
+    - Estiliza el texto del logo con color dorado, con`color: #e2b450;`.
 
 ## [1.2.0] - 2026-03-18
 
-### Agregado
+### Modificado
+
+- Modifica el selector por clase `.navbar`.
+    - Como un contenedor flexible horizontal, con `display: flex;`.
+    - Distribuye el espacio entre el logo y el menú, con `justify-content: space-between`.
+    - Centra verticalmente los elementos y agrega espacio interno, con `align-items: center;`.
 
 ## [1.3.0] - 2026-03-25
 
-### Agregado
+### Modificado
+
+- Modifica el selector por descendientes `.navbar a`.
+    - Estiliza los enlaces del menú sin subrayado, con `text-decoration: none;`.
+    - Con texto en negrita para mejorar su visibilidad, con `font-weight: bold;`.
 
 ## [1.4.0] - 2026-04-01
 
 ### Agregado
 
+- Agrega el selector cuando el usuario pasa el cursor sobre los enlaces del menú, con `.navbar a:hover`
+    - Cambia el color del texto de los enlaces a dorado (`#e2b450`), generando retroalimentación visual.
+
 ## [1.5.0] - 2026-04-08
 
+### Modificado
+
+- Modifica el selector por clase `.btn`.
+    - Color dorado de fondo, con `background-color: #e2b450;`.
+    - Establece un margen superior de 20 píxeles para separar el elemento de lo que tenga arriba. 
+    - Añade un espacio interno o relleno de 14 píxeles en la parte superior e inferior, y de 30 píxeles en los lados izquierdo y derecho. 
+    - Por último, redondea completamente las esquinas del elemento aplicando un radio de borde de 30 píxeles para darle un aspecto de botón o píldora.
+
 ### Agregado
+
+- Agrega el selector cuando el usuario pasa el cursor sobre los elementos con la clase `.btn`
+    - Color blanco de fondo, con `background-color: #ffffff;`.
 
 ## [1.6.0] - 2026-04-15
 
-### Agregado
-
-## [1.7.0] - 2026-04-22
-
-### Agregado
-
-## [1.8.0] - 2026-04-29
-
-### Agregado
-
-## [1.9.0] - 2026-05-06
-
-### Agregado
-
-## [2.0.0] - 2026-05-13
-
-### Agregado
-
-## [2.1.0] - 2026-05-20
-
-### Agregado
-
-## [2.2.0] - 2026-05-27
-
-### Agregado
-
-## [2.3.0] - 2026-06-03
-
-### Agregado
-
-## [2.4.0] - 2026-06-10
-
-### Agregado
+- Para el selector por clase `.section`, define el espaciado general con 70px arriba y abajo, y 8% a los lados.
